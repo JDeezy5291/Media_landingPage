@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato?query=lato&selection.family=Lato">
+    <link rel="stylesheet" href="../css/meyerReset.css">
+    <!-- <link rel="stylesheet" href="./css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="fixed-sidebar" id="sidenav">
+                <div class="menu" onclick="menuAnimation(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+              </div>
+                <div class="sidebar-content" id="sidebar-content">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">DESIGN FOR LIFE - 2020</div>
+                <div class="social-icons" id="socialIconsDisplay">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="menu-overlay"></div>
+        <div class="col1">
+            <!-- <img src="media/escalators.jpg" alt="Escalators" class="img"> -->
+            <div class="logo" id="hero-logo">
+                <a href="../index.html">Agency.</a>
+            </div>
+            <!-- <div class="caption" id="hero-caption">
+                <div class="title">BOLD & CREATIVE</div>
+                <div class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, recusandae.
+                </div>
+            </div> -->
+        </div>
+        <!-- <div class="col2">
+            <div class="c-top">
+                <img src="media/astronaut.jpg" alt="Astronaut" class="img">
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolor.</div>
+            </div>
+            <div class="c-bottom" id="btn-explore">
+                <img src="media/eiffel-tower-699466.jpg" alt="eiffel tower" class="img">
+                <div class="overlay"></div>
+                <div class="title">FUTURE <br /> DESIGNS</div>
+                <div class="btn">EXPLORE MORE +</div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- <div class="section-1">
+        <div class="section-wrapper">
+            <h1>why choose us?</h1>
+            <div class="ul-wrapper">
+                <div class="col1-section1">
+                    <ul>
+                        <li>
+                            <h4>Insightful inovation</h4>
+                            <p>Our specialists have a strong sense of aesthetic that reflects through innovation in our designs, developments, and multimedia.</p>
+                        </li>
+                        <li>
+                            <h4>24*7 Technical Consultations</h4>
+                            <p>Anytime you need a session with our technical experts and there we are assisting you through the difficulties, seamlessly.</p>
+                        </li>
+                        <li>
+                            <h4>Reliability and Transparency</h4>
+                            <p>Forging has put trust at stake, but we take the other way, accelerating transparency in communication & client-handling.</p>
+                        </li>
+                        <li>
+                            <h4>Consistent collaboration</h4>
+                            <p>We take pride in our long-term relationship with clients, built on the basis of proficiency and proactive contributions.</p>
+                        </li>
+                        <li>
+                            <h4>Quality assurance</h4>
+                            <p>Customers are the most-valued assets to us and thus we upheld a customer centric business approach.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col2-section1">
+                    <img src="./media/people.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="section-2">
+        <div class="section-2_container">
+            <div class="section-2_row">
+                <div class="col1">
+                    <div class="content">
+                        <div class="head_bg">
+                            <span>economy</span>
+                        </div>
+                        <div class="head">
+                            <span class="sign">$</span>
+                            <span class="currency">25</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>Free Setup</li>
+                                <li>Monitor up to 10 Keywords
+                                </li>
+                                <li>Basic On-Site Optimization
+                                </li>
+                                <li>Review and Analysis
+                                </li>
+                                <li>Keyword Research
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="content">
+                        <div class="head_bg">
+                            <span>deluxe</span>
+                        </div>
+                        <div class="head">
+                            <span class="sign">$</span>
+                            <span class="currency">50</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>Free Setup</li>
+                                <li>Monitor up to 15 Keywords
+                                </li>
+                                <li>Basic On-Site Optimization
+                                </li>
+                                <li>Review and Analysis
+                                </li>
+                                <li>Keyword Research
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="content">
+                        <div class="head_bg">
+                            <span>ultimate</span>
+                        </div>
+                        <div class="head">
+                            <span class="sign">$</span>
+                            <span class="currency">75</span>
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>Free Setup</li>
+                                <li>Monitor up to 20 Keywords
+                                </li>
+                                <li>Basic On-Site Optimization
+                                </li>
+                                <li>Video Promotion
+                                </li>
+                                <li>Review Rating/ Review snippet schema
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="section-3">
+        <div class="section-wrapper">
+            <h1>Lets Connect</h1>
+            <div class="contact-wrapper">
+                <div class="form-left">
+                    <h2>EMAIL</h2>
+                    <form>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <textarea type="text" placeholder="Message"></textarea>
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+                <div class="form-right">
+                    <h2>CALL</h2>
+                    <p>888-888-8888</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="section-4">
+        <div class="container">
+            <div class="row">
+                <h2>OUR VALUES</h2>
+            </div>
+            <div class="row">
+                <div class="section-4_col">
+                    <h2>500 +</h2>
+                    <h3>Projects</h3>
+                </div>
+                <div class="section-4_col">
+                    <h2>1000 +</h2>
+                    <h3>Customers</h3>
+                </div>
+                <div class="section-4_col">
+                    <h2>100 +</h2>
+                    <h3>Employees</h3>
+                </div>
+                <div class="section-4_col">
+                    <h2>50 +</h2>
+                    <h3>Ongoing Projects</h3>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div> -->
+    <div class="section-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-5_col right-border">
+                    <div class="footer-about">
+                        <h2 class="footer-title">About Us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ea molestias sint iste
+                            asperiores cum in illum repellendus omnis voluptas vitae, amet dolorum, obcaecati atque
+                            similique nulla aliquam ipsum! Aut?</p>
+                    </div>
+                </div>
+                <div class="section-5_col">
+                    <div class="contact">
+                        <h2 class="footer-title">contact info</h2>
+                        <div class="contact-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>123 Main Street Somewhereville USA 101010</p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>+1 (888) 888-8888</p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>mediacontact@media.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.27.0/feather.js"></script>
+    <script>feather.replace()</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
