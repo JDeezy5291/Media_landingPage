@@ -1,9 +1,13 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   font-family: "Lato", sans-serif;
   line-height: 1.4;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 html .wrapper,
@@ -375,6 +379,11 @@ body .wrapper .col2 .c-bottom {
   width: 100%;
   position: relative;
   overflow: hidden;
+}
+
+html .wrapper .col2 .c-bottom:hover,
+body .wrapper .col2 .c-bottom:hover {
+  cursor: pointer;
 }
 
 html .wrapper .col2 .c-bottom img,
@@ -892,8 +901,16 @@ body .section-3 .section-wrapper .contact-wrapper .form-left form button {
   display: inline-block;
   font-size: 13px;
   color: #424242;
-  margin: 10px 0px;
   border-radius: 20px;
+  margin: 10px -50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+html .section-3 .section-wrapper .contact-wrapper .form-left form button:hover,
+body .section-3 .section-wrapper .contact-wrapper .form-left form button:hover {
+  cursor: pointer;
 }
 
 html .section-3 .section-wrapper .contact-wrapper .form-right,
